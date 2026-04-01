@@ -4,6 +4,24 @@
     "Levels": {
       "F": "Female",
       "M": "Male"
+    },
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Sex",
+        "Label": "Sex"
+      },
+      "VariableType": "Categorical",
+      "Levels": {
+        "M": {
+          "TermURL": "snomed:248153007",
+          "Label": "Male"
+        },
+        "F": {
+          "TermURL": "snomed:248152002",
+          "Label": "Female"
+        }
+      },
+      "MissingValues": []
     }
   },
   "age_ses-1": {
@@ -27,6 +45,16 @@
     "Levels": {
       "Complete": "participant provided data at all time points (i.e. test/4-months, retest, 8-months, 12-months)",
       "Reliability": "participant provided data only at the test and retest time points"
+    }
+  },
+  "participant_id": {
+    "Description": "",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:ParticipantID",
+        "Label": "Participant ID"
+      },
+      "VariableType": "Identifier"
     }
   }
 }
